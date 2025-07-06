@@ -1,0 +1,205 @@
+/* Universal Section*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* Body Section */
+
+body{
+    font-family: 'sans-serif' 'poppins';
+    background-color: #f0f0f0;
+}
+
+
+ /*.nav_icon{
+    display:none;
+
+}*/
+
+/* nav bar design*/
+.header{
+    background-color: #000000;
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+    height: 100px;
+}
+
+/* navbar Left Logo*/
+.logo{
+    width: 50%;
+}
+
+/* navbar logo with h1*/
+.logo h1{
+    font-size: 35px;
+    margin: 25px;
+    display:inline-block;
+    text-align: center;
+    color: #ffff;
+    text-shadow: #ffd7c5 3px 1px 3px;
+}
+
+/* navbar logo,h1 with span tag*/
+span{
+    color: #f5f5f5; 
+}
+
+
+/* navbar with Right section*/
+.navbar{
+    width: 50%;
+    display:flex;
+    align-items: center;
+}
+
+/* nav tag*/
+nav{
+    margin-top: 35px;
+}
+
+/* navbar with unordered listed tag with list*/
+.navbar ul li{
+    float: left;
+    list-style: none;
+    padding: 25px;
+    margin-right: 35px;
+}
+
+/* navbar with unordered list with list with anchor tags*/
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* navbar with unordered list,list tags,anchor tags with hover */
+.navbar ul li a:hover{
+    color:#ec6e00;
+    transition: o.3s ease-in-out;
+}
+
+/* button tag start*/
+
+#btncv{
+    background-color: #dd4a0c;
+   color: #fff;
+   font-weight: bold;
+   padding: 3px 3px;
+   margin-bottom: 50%;
+   border: 1px solid #ff5308;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+/* button tag with hover*/
+
+#btncv:hover{
+    background-color: #000000;
+    transition: 0.3s ease-in-out;
+    padding: 5px 5px;
+}
+
+
+/* Hero section starts */
+
+.hero-display-flex{
+ display: flex;
+ flex-direction: row;
+ justify-content:space-around ;
+ padding-top: 50px;
+ margin:0;
+ background-color: rgb(238, 233, 241);
+
+}
+
+/* Hero content */
+.content{
+    width:50%;
+    margin-top: 40px;
+    text-align: left;
+}
+
+
+/* Hero content buttons */
+.content button{
+    background-color: #ff5308;
+    color: #fff;
+    margin-top: 20px 0;
+    padding: 8px 2px;
+    border: 2px solid #ff5308;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+/* Hero heading */
+.content h1{
+    font-size: 40px;
+    color:#373636;
+    margin-bottom: 20px;
+}
+
+span{
+    color: #ff5308
+}
+
+
+/* Hero bio */
+.bio{
+    font-size: 18px;
+    color:#373636;
+    margin-bottom: 20px;
+    line-height: 1.5 rem;
+    text-align: left;
+}
+
+
+/* Hero buttons hover */
+.content button:hover{
+    background-color: #fff;
+    color: #373636;
+    transition: 0.5s ease-in-out;
+}
+
+
+/* Hero lists section */
+.content li{
+    list-style: none;
+    font-size: 25px;
+    color:#ed5514;
+    float: left;
+    margin-right: 20px;
+    font-size: large;
+    margin-top: 20px;
+}
+
+
+/* Hero list with icons */
+.content i{
+    font-size: 25px;
+    margin: 10px 10px 10px 10px;
+    }
+
+
+    /* Hero image */
+.image img{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #ff5308;
+    border-radius: 50%;
+}
+
+footer{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+
+
+
+
